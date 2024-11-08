@@ -1,5 +1,7 @@
-.lista{
+.header{
     position: fixed;
     padding: auto;
     margin: 90%;
+    width: 100%;
+    background-color: blueviolet;
 }
