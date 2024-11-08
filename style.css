@@ -3,8 +3,11 @@
     padding: 1em 0;
     color: white;
     top: 0;
+    width: 40%;
     z-index: 1000;
-    background-color: blueviolet;
+    background-color: rgb(179, 174, 184);
+    border-radius: 25px;
+    border-color: black;
 }
 main{
     background-color: aliceblue;
