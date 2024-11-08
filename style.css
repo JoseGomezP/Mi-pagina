@@ -1,7 +1,10 @@
-.header{
+header{
     position: fixed;
-    padding: auto;
+    padding: 1em 0;
     margin: 90%;
+    color: white;
     width: 100%;
+    top: 0;
+    z-index: 1000;
     background-color: blueviolet;
 }
