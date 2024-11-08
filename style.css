@@ -30,6 +30,7 @@ nav ul {
 
 nav ul li {
     margin: 0 20px; 
+    position: relative; 
 }
 
 nav ul li a {
@@ -40,5 +41,38 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #ff6347;  
+}
+
+
+nav ul li ol {
+    display: none;  
+    position: absolute;
+    top: 100%;  
+    left: 0;
+    background-color: #333;
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li:hover > ol {
+    display: block; 
+}
+
+nav ul li ol li {
+    margin: 10px 0; 
+}
+
+nav ul li ol li a {
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    display: block;
+}
+
+nav ul li ol li a:hover {
+    background-color: #ff6347;  
 }
 
