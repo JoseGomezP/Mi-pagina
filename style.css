@@ -13,7 +13,6 @@
 
 main {
     margin-top: 100px; 
-    background-color: aliceblue;
     font-family: 'Times New Roman', Times, serif;
     color: black;
 }
@@ -74,5 +73,21 @@ nav ul li ol li a {
 
 nav ul li ol li a:hover {
     background-color: #ff6347;  
+}
+#susuro{
+    height: 90vh;
+    background-color: aquamarine;
+}
+#jardin{
+    height: 90vh;
+    background-color: aquamarine;
+}
+#noche{
+    height: 90vh;
+    background-color: aquamarine;
+}
+#rio{
+    height: 90vh;
+    background-color: aquamarine;
 }
 
