@@ -8,3 +8,9 @@
     z-index: 1000;
     background-color: blueviolet;
 }
+main{
+    background-color: aliceblue;
+    margin: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
